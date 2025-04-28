@@ -21,3 +21,9 @@
 // repeat -1: repeat infinite times.
 // yoyo: Go back and forth
 // --------------------------------------------------
+
+gsap.to(".box", {
+    y:200, //transformX(100)
+    duration: 2,
+    repeat: 2,
+})
